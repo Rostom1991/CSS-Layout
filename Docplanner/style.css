@@ -1,0 +1,525 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+@media(min-width:700px){
+    body{
+    font-family: sans-serif;
+    color: grey;
+    margin: auto;
+    max-width: auto;
+}
+
+main{width: auto;
+
+
+}
+.visits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    max-width: auto;
+}
+
+
+a{
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(165, 164, 164);
+    
+}
+
+.activelink{
+    color:#00bfa5 ;
+}
+
+span{
+    color: #00bfa5;    
+    
+}
+.docplannerhead{
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    top: 0px;
+    background: white;
+    z-index: 1;
+    margin-top: 20px;
+    
+   
+}
+
+.docplantitle{
+    margin-top: 0px;
+    color: rgb(184, 184, 184);
+    font-family: roboto;
+    font-size: 27px;
+    width: auto;
+    font-weight:bold;
+    
+}
+.intro{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 1000px;
+    margin-left: 18%;
+
+}
+.docplannerlogo{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.smalllogo{
+    width: 35px;
+    height: 35px;
+    margin-top: -1px;
+    margin-right: 10px;
+}
+.intro-logo{
+    margin-top: 20px;
+    display: flex;
+    width: 20px;
+    height: 40px;
+}
+.intro-title{
+
+    margin: 40px;
+
+        color: #00bfa5;
+        font-weight:lighter;
+        font-size: 30px;
+
+}
+
+.intro-parag{
+    display: flex;
+    margin: 30px;
+    word-spacing: 5px  ;
+    line-height: 25px;
+
+
+}
+.intro-p{
+    margin: 20px 20px;
+}
+
+.visits > div:hover{
+    /* box-shadow: 0 0 50px 5px lightgrey; */
+    opacity: 90%;
+    
+}
+
+.visits {
+    justify-content: space-around;
+    width: 950px;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+.for-patients{
+    background-color: #00ccb1;
+    color: white;
+    margin: -5px;
+    padding: 20px;
+    height: 300px;
+    width: 260px;
+    border-radius: 10px;
+    
+
+
+}
+.for-doctors{
+    background-color: #3d83df;
+        color: white;
+        margin: -5px;
+        padding: 20px;
+        height: 300px;
+        width: 260px;
+        border-radius: 10px;
+
+}
+.for-clinic{
+    background-color:#1b2734 ;
+        color: white;
+        margin: -5px;
+        padding: 20px;
+        height: 300px;
+        width: 260px;
+        border-radius: 10px;
+
+}
+.icon-patient{
+    background-image: url(https://www.docplanner.com/icons/icon-patients.svg);
+}
+
+.country{
+    margin: 20px;
+    padding: 5px 5px;
+}
+
+.znany{
+    width: 20px;
+    height: 20px;
+    margin-left: 140px;
+    
+    
+}
+a:hover{
+    color: mediumturquoise;
+}
+.global{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.p1{
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(63, 179, 175);
+}
+
+.platform{
+    background-color: #d8f6f4;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+   
+}
+.plat1{
+    width: auto;
+    margin-left: 15%;
+   
+   
+}
+.title1{
+    color: #00b39b;
+    padding: 20px;
+    line-height: 40px;
+    font-weight: 100;  
+    font-size: 30px;
+}
+
+.biglogo{
+    margin-left: -70px;
+    height:440px;
+    position:absolute;
+    
+}
+.par1{
+    padding-left: 20px;
+    line-height: 25px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.plat2{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 300px;
+}
+
+
+.flag{
+    background-color: white;
+    width: 210px;
+    height: 230px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.unique{
+    background-color:white ;
+    width: 210px;
+    height:250px;
+    margin:10px ;
+    margin-top: 230px;
+    margin-left: 850px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.plat3{
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+    
+    
+}
+    
+    
+.appoint{
+background-color:white ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    width: 210px;
+    height:230px;
+    border-radius: 5px;
+    margin-top: 530px;
+    padding: 10px;
+    margin-left: 130px;
+}
+
+.doc{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+    align-items: center;
+    width: 210px;
+    height:250px;
+    
+    margin-top: 500px;
+    margin-right: 10px;
+    margin-left: 60px;
+    border-radius: 5px;
+
+}
+
+.plat2-3{
+    position: absolute;
+        margin: -15px;
+        margin-top: -210px;
+
+    display: flex;
+    flex-direction: column;
+  
+    background-color: rgba(0, 128, 128, 0);
+
+
+    
+}
+.flagtitle{
+    font-size: 21px;
+    font-weight: 100;
+    text-align: center;
+    color: #15b9a3;
+}
+
+.flagicon{
+    width: 35px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.flagcountry{
+    text-align: center;
+    font-size: 13px;
+   
+}
+
+.uniqueicon{
+    width: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.appointimg{
+        width: 40px;
+
+    
+}
+.appointtext{
+    font-size: 21px; 
+    font-weight: 100;
+    color:#15b9a3 ;
+    text-align: center;
+}
+.appointvisit{
+    font-size:13px ;
+}
+
+.docimage{
+    width: 50px;
+    padding: 40px;
+    
+
+}
+.doctitle{
+    font-size: 21px;
+    font-weight: 100;
+    color:#15b9a3 ;
+    text-align: center;
+    
+}
+.docpara{
+    font-size: 13px;
+}
+
+
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+
+.dropdown-content{
+    position: absolute;
+    top: 20px;
+    width: 230px;
+    background-color:white;  
+    box-shadow: 0 0 10px 1px lightgrey;
+    padding: 5px;
+      
+    display: none;
+    height: 190px;
+   
+}
+.dropdown-content a{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    
+}
+
+
+.dropdown-content a:hover{
+  background-color: rgba(74, 231, 215, 0.151);
+  width: auto;
+  cursor: pointer;
+  
+}
+
+.dropdown-container:hover .dropdown-content{
+    display: block;
+      
+}
+
+.improve{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imptitle{
+    margin-top: 50px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00ccb1;
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.more{
+display: flex;
+text-align: center;
+width: 60%;
+line-height: 1.5em;
+font-size: 14px;
+}
+
+.cities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: right;
+    background: rgb(255, 255, 255);
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    grid-column-gap: 1em
+ 
+}
+
+.cities > div{
+    padding: 0px;
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.cities > div:nth-child(odd){
+    background: white;
+    width: auto;
+}
+
+.cities img{
+    width: 300px;
+    border-radius: 4px;
+}
+.cities > div:hover{
+    box-shadow: 0px 0px 10px 10px rgb(237, 237, 241);
+    cursor: pointer;
+
+}
+
+
+.cities div div{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+   
+}
+
+.cities button{
+    color: white;
+    background: #3d83df;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 12px;
+    width: 120px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+footer{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+span{
+    color: mediumturquoise;
+    
+}
+ hr{
+     height: 0;
+     opacity: 20%;
+     
+ }
